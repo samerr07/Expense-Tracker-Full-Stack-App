@@ -19,7 +19,7 @@ const AddExpense = ({budgetId,refreshData,user}) => {
             name:name,
             amount:amount,
             budgetId: budgetId,
-            createdAt: moment().format("DD/MM/YYY")
+            createdAt: moment().format("DD/MM/YYYY")
         }).returning({insertedId:Budgets.id})
 
         setName("")
@@ -40,6 +40,7 @@ const AddExpense = ({budgetId,refreshData,user}) => {
         <Input
           onChange={(e) => setName(e.target.value)}
           placeholder="e.g. Bedroom Decor"
+          value={name}
         />
       </div>
       <div className="mt-2">
@@ -47,6 +48,7 @@ const AddExpense = ({budgetId,refreshData,user}) => {
         <Input
           onChange={(e) => setAmount(e.target.value)}
           placeholder="e.g. $1000"
+          value={amount}
         />
       </div>
       <Button onClick={()=>addNewExpense()} disabled={!(name&&amount)} className="w-full mt-3">

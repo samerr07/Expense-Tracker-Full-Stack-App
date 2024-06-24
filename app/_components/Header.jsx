@@ -19,7 +19,10 @@ const Header = () => {
       />
       <div className='flex gap-3 items-center'>
         <Link href={"/dashboard"}>
-          <Button  variant="outline">Dashboard</Button>
+        {
+          isSignedIn && <Button  variant="outline">Dashboard</Button>
+        }
+          
         </Link>
 
         {

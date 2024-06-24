@@ -17,6 +17,8 @@ const ExpenseListTable = ({expensesList,refreshData}) => {
         refreshData()
       }
   }
+
+  console.log(expensesList)
   return (
     <div className='mt-3'>
       <h2 className='font-bold text-lg'>Latest Expenses</h2>

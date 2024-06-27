@@ -2,6 +2,24 @@
 
 ## Live Demo : https://expense-tracker-full-stack-app.vercel.app/
 
+## Overview
+
+Welcome to the Expense Tracker App! This application helps you track your expenses in real-time, providing detailed analytics and insights into your financial habits. Built with Next.js, React, Drizzle ORM, Clerk, and Tailwind CSS, this app offers a seamless, secure, and visually appealing user experience.
+
+## Features
+
+- **Real-time Expense Tracking**: Monitor your spending in real-time.
+- **Detailed Analytics**: Visualize your expenses with charts and graphs.
+- **Secure User Authentication**: Sign in and manage your account securely with Clerk.
+- **Beautiful UI**: Enjoy a sleek and responsive interface designed with Tailwind CSS.
+
+## Tech Stack
+
+- **Next.js & React**: For dynamic user experiences and robust performance.
+- **Drizzle ORM**: For efficient and type-safe database interactions.
+- **Clerk**: For enhanced security and user management.
+- **Tailwind CSS**: For creating a beautiful and responsive UI.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
